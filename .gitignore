@@ -10,3 +10,4 @@ output/
 .gstack/
 3d-models/
 config.bat
+.env

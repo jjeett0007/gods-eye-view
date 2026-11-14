@@ -11,7 +11,7 @@
     "pbf": "^5.1.2",
     "satellite.js": "^6.0.2"
   },
-  "description": "A real-time intelligence console for planet Earth \u2014 photorealistic 3D globe, live aircraft/ships/satellites/earthquakes/CCTV, and hands-free voice control. Runs in a browser.",
+  "description": "A real-time intelligence console for planet Earth — photorealistic 3D globe, live aircraft/ships/satellites/earthquakes/CCTV, and hands-free voice control. Runs in a browser.",
   "devDependencies": {
     "puppeteer": "^24.37.5",
     "sharp": "^0.34.5",
@@ -45,9 +45,9 @@
     "url": "https://github.com/bilawalsidhu/gods-eye-view.git"
   },
   "scripts": {
-    "build": "node init && vite build",
-    "dev": "node init && vite",
-    "dev:secure": "node init && ./scripts/dev-secure.sh",
+    "build": "vite build",
+    "dev": "vite",
+    "dev:secure": "./scripts/dev-secure.sh",
     "opensky:import": "./scripts/opensky-import-client.sh",
     "preview": "vite preview",
     "qa:map-source-tray": "node scripts/qa-map-source-tray.mjs",
